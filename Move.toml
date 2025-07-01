@@ -4,6 +4,7 @@ edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
 
+published-at = "0x6970a1be84273d59f1765b2d30916462ce841f76cba52e656af5ac1affd5c36e"
 
 
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
@@ -18,7 +19,7 @@ edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
-week2 = "0x0"
+week2 = "0x6970a1be84273d59f1765b2d30916462ce841f76cba52e656af5ac1affd5c36e"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
